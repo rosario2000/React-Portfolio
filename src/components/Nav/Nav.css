@@ -1,0 +1,69 @@
+.n{
+    padding: 15px 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.n a{
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.n a:hover{
+    width: fit-content;
+    color: rgb(91, 0, 128);
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.n-logo h1{
+    margin: 0;
+   font-size: 35px;
+}
+
+.n-list{
+    margin: auto 0;
+    text-align: center;
+}
+
+.n-list .col-sm-3{
+    margin: 8px auto;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .n-list .col-sm-3{
+        font-size: 15px;
+        margin: 8px auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .n-list .col-sm-3{
+        font-size: 12px;
+        margin: 8px auto;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .n-logo a{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .n-list{
+        margin: 15px 0;
+    }
+    .n-list .col-sm-3{
+        font-size: 15px;
+    }
+}

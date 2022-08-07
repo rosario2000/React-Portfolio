@@ -1,0 +1,53 @@
+.p{
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.p-browser{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.p-circle{
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+
+
+.p img{
+    margin: 0;
+    width: 100%;
+    transition: all 8s ease;
+}
+
+.p img:hover{
+   transform: translateY(-100%);
+}
+
+
+
+
+@media screen and (max-width : 1000px) {
+    .p{
+        width: 320px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width : 806px) {
+    .p{
+        width: 80%;
+        margin-bottom: 35px;
+    }
+}

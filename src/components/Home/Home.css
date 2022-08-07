@@ -1,0 +1,178 @@
+.back{
+    background-image:  url('/src/components/img/back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+    border-radius: 200px;
+}
+
+.row{
+    height: fit-content;
+}
+
+.a{
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.a .back{
+    margin: 0 auto;
+    width: 100%;
+}
+.col-sm-12{
+    margin: auto 0;
+}
+
+.i-left-wrapper{
+    margin: 50px 0;
+    padding: 50px;
+    height: 40%;
+}
+
+.i-intro{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.i-name{
+    font-size: 60px;
+}
+
+.i-title{
+    
+    height: 50px;
+    overflow: hidden;
+}
+
+.i-title-wrapper{
+    
+    height: 100%;
+    animation: move 8s ease-in-out infinite alternate;
+}
+
+@keyframes move{
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+.i-title-item{
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(106, 0, 188);
+}
+
+
+@media screen and (max-width : 1200px) {
+    .i-intro{
+        font-size: 25px;
+        font-weight: 250;
+    }
+    
+    .i-name{
+        font-size: 50px;
+    }
+    .i-title-item{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width : 806px) {
+    .i-intro{
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .i-name{
+        font-size: 40px;
+    }
+    .i-title-item{
+        font-size: 20px;
+    }
+    .row{
+        height: fit-content;
+    }
+}
+
+
+@media screen and (max-width : 350px) {
+    
+    .i-intro{
+        font-size: 7px;
+        font-weight: 100;
+    }
+    
+    .i-name{
+        font-size: 10px;
+    }
+
+    .i-title-item{
+        font-size: 5px;
+    }
+}
+
+
+.desc{
+    height: fit-content;
+    font-size: 1.30rem;
+    margin: 3.5rem auto;
+    color: rgb(128, 126, 126);
+    font-family: 'Poiret One';
+    text-align: center;
+}
+
+.a hr{
+    border: none;
+    border-bottom: 3px solid rgb(106, 0, 188);
+}
+
+
+
+
+
+
+
+/*------------------------------conv------------------------------------------*/
+
+.conv {
+    margin: 5vw auto 8vw;
+    text-align: center;
+}
+
+.conv h2 {
+    font-family: 'Genos', sans-serif;
+    padding: 10px 0px;
+    font-size: 2.5rem;
+}
+
+.conv p {
+    font-family: 'Monsterrat', sans-serif;
+    padding: 0 20px;
+    font-size: 17px;
+    color: darkgray;
+}
+
+.btn-outline-secondary {
+    color: rgb(106, 0, 188);
+    border-color: rgb(106, 0, 188);
+    border-radius: 30px;
+}
+
+.btn-outline-secondary:hover {
+    color: white;
+    background-color: rgb(106, 0, 188);
+}
